@@ -27,3 +27,5 @@ We want to be able to do a benign linebreak for synced lyrics, something that cu
 
 * Genius lyrics example: https://genius.com/Lord-aethelstan-die-with-me-lyrics
 * Wikipedia on LRC: https://en.wikipedia.org/wiki/LRC_(file_format)
+
+We probably want to keep the 10ms precision, as 1ms precision seems pointless.
