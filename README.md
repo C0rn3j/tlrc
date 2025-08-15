@@ -25,7 +25,7 @@ We want to add "chapters", so we can say which part is chorus, which part is ver
 
 We want to be able to do a benign linebreak for synced lyrics, something that currently isn't very possible in LRC.
 
-* Genius lyrics example: https://genius.com/Lord-aethelstan-die-with-me-lyrics
+* Genius lyrics example: https://genius.com/Lord-aethelstan-die-with-me-lyrics # TODO (Martin): when finalizing examples do not use macabre songs like this
 * Wikipedia on LRC: https://en.wikipedia.org/wiki/LRC_(file_format)
 
 We probably want to keep the 10ms precision, as 1ms precision seems pointless.
