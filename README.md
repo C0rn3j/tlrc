@@ -5,7 +5,7 @@ Let's do one file to rule them all, lyrics.toml (or SONGNAME.toml), nothing else
 
 Let's add ability to do multiple languages - we don't need to do it like subtitles for shows/movies are handled in video players, we can just add a new TOML section with a language mark.
 
-We will support 4 things:
+We will support 4 sections:
  * Plaintext lyrics
  * LRC (which extensions, if any?)
  * TLRC plaintext
