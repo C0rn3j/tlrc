@@ -7,8 +7,8 @@ Let's add ability to do multiple languages - we don't need to do it like subtitl
 
 We will support 4 sections:
  * Plaintext lyrics
- * LRC (which extensions, if any?)
- * TLRC plaintext
+ * LRC with both known extensions
+ * TLRC "plaintext"
  * TLRC synced
 
 The rationale is that one might want to split things differently for karaoke lyrics as opposed to unsynced lyrics.
