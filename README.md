@@ -13,7 +13,7 @@ We will support 4 sections:
 
 The rationale is that one might want to split things differently for karaoke lyrics as opposed to unsynced lyrics.
 
-We want TLRC to do something akin to the LRC A2 extension.
+We want TLRC to do something akin to the LRC A2 extension, i.e. fullblown karaoke.
 
 We want TLRC to do something akin to the duet extension - we should be able to mark all the singers and assign them shorthands, so we know who is singing.
 
