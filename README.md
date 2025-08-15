@@ -30,6 +30,8 @@ We want to be able to do a benign linebreak for synced lyrics, something that cu
 
 We probably want to keep the 10ms precision, as 1ms precision seems pointless.
 
+Avoid redefining data that should already be present in the file metadata - verify all the common formats support whatever tag we are no longer providing, as compared to LRC.
+
 Let's standardize (s)LRC (core) and e(LRC) (core+a2+duet), since the standard seems to currently live on Wikipedia of all places.
 
 TOML example:
