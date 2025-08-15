@@ -34,6 +34,8 @@ Avoid redefining data that should already be present in the file metadata - veri
 
 Let's standardize (s)LRC (core) and e(LRC) (core+a2+duet), since the standard seems to currently live on Wikipedia of all places.
 
+Force chronological order(?).
+
 TOML example:
 
 ```toml
