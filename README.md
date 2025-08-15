@@ -18,3 +18,12 @@ We want TLRC to do something akin to the LRC A2 extension.
 We want TLRC to do something akin to the duet extension - we should be able to mark all the singers and assign them shorthands, so we know who is singing.
 
 We want to be able to play multiple lines at once, in case two people are singing different lyrics at the same time - we will not only need start timestamps, but also end timestamps for those.
+
+We want to be able to do italics and possibly bolding of the text.
+
+We want to add "chapters", so we can say which part is chorus, which part is verse X, etc. This will enable nice splitting even for synchronized lines.
+
+We want to be able to do a benign linebreak for synced lyrics, something that currently isn't very possible in LRC.
+
+* Genius lyrics example: https://genius.com/Lord-aethelstan-die-with-me-lyrics
+* Wikipedia on LRC: https://en.wikipedia.org/wiki/LRC_(file_format)
