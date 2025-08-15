@@ -37,6 +37,45 @@ Let's standardize (s)LRC (core) and e(LRC) (core+a2+duet), since the standard se
 TOML example:
 
 ```toml
-[[test]]
-TODO
+[spec]
+name = "TLRC"
+version = "0.1-draft"
+
+[track]
+title = "Die With Me (Example)"        # optional if player can read from media tags
+# Artists are tagged as one letter, followed by a pipe character with their full name
+# In this example, lyrics can use L, N, or LN tags, where LN would be a duet
+artists = ["L|Lord Æthelstan", "N|Nyanners"] # optional (duet example)
+language_default = "en"                # BCP-47 code for default language
+
+[lyrics.en]
+
+# 1) Plaintext lyrics (unsynced, simple). No formatting support.
+[lyrics.en.plain]
+text = """
+[Verse 1]
+I will stand where shadows meet the sea,
+and whisper “stay” — if you’ll stay with me.
+
+[Chorus]
+Hold your breath and count to three,
+"""
+
+# 2) Raw LRC variants for compatibility (verbatim strings; players can use as-is)
+[lyrics.en.lrc]
+slrc = """
+[ar:Lord Æthelstan & Nyanners]
+[ti:Die With Me]
+[00:12.30]I will stand where shadows meet the sea,
+[00:17.10]and whisper "stay" — if you’ll stay with me.
+[00:23.00]Hold your breath and count to three,
+"""
+
+# 3) TLRC "plaintext" (unsynced but structured: chapters, styling, inline singer tags(?))
+[lyrics.en.tlrc.plain]
+
+# 4) TLRC synced (rich, structured; supports concurrency, chapters, singer assignment, soft linebreaks)
+[lyrics.en.tlrc.synced]
+
+
 ```
