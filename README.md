@@ -46,6 +46,7 @@ title = "Die With Me (Example)"        # optional if player can read from media 
 # Artists are tagged as one letter, followed by a pipe character with their full name
 # In this example, lyrics can use L, N, or LN tags, where LN would be a duet
 artists = ["L|Lord Æthelstan", "N|Nyanners"] # optional (duet example)
+# https://datatracker.ietf.org/doc/html/rfc5646.html
 language_default = "en"                # BCP-47 code for default language
 
 [lyrics.en]
