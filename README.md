@@ -1,4 +1,5 @@
 # tlrc
+
 Draft of a draft for TLRC - TOML Lyrics
 
 Let's do one file to rule them all, lyrics.toml (or SONGNAME.toml), nothing else uses TOML for music to my knowledge so there should not be a problem.
@@ -39,7 +40,8 @@ Perfect is the enemy of good, let's have a decent core spec and it can always be
 We also want to avoid [SAO fansub](https://www.youtube.com/watch?v=nqiVJJt3_KY) level of features, nobody would want to implement that.
 
 Force chronological order(?).
-xTOML example:
+
+## TOML example
 
 ```toml
 [spec]
